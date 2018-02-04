@@ -2,14 +2,14 @@
   <div class="container-fluid">
     <div class="navbar-header">
     <div class="container">
-      <a [routerLink]="['welcome']">Home</a>
-      <a [routerLink]="['products']">Product List</a>
+      <a [routerLink]="['/welcome']">Home</a>
+      <a [routerLink]="['/products']">Product List</a>
     </div>
     </div>
   </div>
 </nav>
 <div class="container">  
-  <pm-products></pm-products>
+  <router-outlet></router-outlet>
 </div>
 
 
