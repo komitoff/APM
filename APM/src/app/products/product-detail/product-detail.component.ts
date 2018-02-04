@@ -10,6 +10,7 @@ export class ProductDetailComponent implements OnInit {
   constructor(private _productService: ProductService) { }
 
   ngOnInit() {
+    
   }
 
 }
